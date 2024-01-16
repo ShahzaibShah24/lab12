@@ -11,6 +11,7 @@ public class Lab12 {
 				System.out.println("The Value Is : " + array[input.nextInt()]);
 			} catch (ArrayIndexOutOfBoundsException e) {
 				System.out.println("Array Index Out Of Bounds. ");
+				System.out.println(array);
 			}
 		}
 	}
